@@ -7,10 +7,12 @@ const mondayWork = function(activity = 'go to the office') {
     return `This Monday, I will ${activity}.`
 }
 
-function wrapAdjective(punctuation = '*') {
+function wrapAdjective(visualFlair = '*') {
     return function(adjective = 'special') {
-        return `You are ${punctuation}${adjective}${punctuation}!`
+        return `You are ${visualFlair}${adjective}${visualFlair}!`
     }
 }
+
+
 
 
